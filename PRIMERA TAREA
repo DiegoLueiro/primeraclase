@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            'CREEPY': 'Algo aterrador, siniestro'
+            }
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+if word in meme_dict.keys():
+    if word == 'CRINGE':
+        print("Algo excepcionalmente raro o embarazoso")
+    if word == 'LOL':
+        print("Una respuesta común a algo gracioso")
+    if word == 'CREEPY':
+        print("Algo aterrador, siniestro")# ¿Qué debemos hacer si se encuentra la palabra?
+    else:
+        print('La palabra no está en el diccionario :(')# ¿Qué hacer si no se encuentra la palabra?
